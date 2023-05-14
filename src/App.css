@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  list-style: none;
+}
+
+body {
+  background-color: rgb(75, 40, 99);
+  scroll-behavior: smooth;
+}
+
+nav {
+  background-color: peru;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.nav-Link {
+  padding: 1rem;
+  color: whitesmoke;
+  transition: 0.3s all;
+}
+
+.nav-Link:hover {
+  color: black;
+}
+
+h2 {
+  text-align: center;
+  color: wheat;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 2rem;
+  color: white;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 1rem;
+}
+
+td,
+th {
+  color: white;
+  border: 2px solid;
+  padding: 1rem;
+}
+
+button {
+  cursor: pointer;
+  margin: 0 1em 0 0;
+  padding: 0.5rem;
+  border-radius: 0.5em;
+  transition: 0.3s all;
+}
+
+label {
+  color: white;
+}
+
+button:hover {
+  background-color: black;
+  color: whitesmoke;
+}
+
+p {
+  color: white;
+  max-width: 780px;
+  margin: 2rem;
+  text-align: center;
+}
+
+input {
+  width: 20rem;
+  padding: 1em;
+}
+
+.form-field {
+  margin: 1.3rem;
+}
+
+form {
+  margin: 1rem;
+  padding: 0.3em;
+  background-color: rgb(37, 133, 117);
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
